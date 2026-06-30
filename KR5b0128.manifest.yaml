@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5b0128/v1
+canonical_location: https://kanripo.org/bkk/KR5b0128/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 洞玄靈寶三師記
+  identifiers:
+    alt_id:
+    - DZ0444
+  date: '2015-08-28 23:49:44.651115'
+  source:
+    repository: kanripo
+    path: KR5b0128
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0128_000.yaml, hash: 'sha256:59d45e02462ad43b63eb96eea911469197d6d773a6b72da6f51c62ea8ada264f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0128_000.markers.yaml, hash: 'sha256:e752eebac4c0f4f0bf8e085638a35864bf97d8107c76156a5e1a3b96531d08ce'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0128_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2453
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:cde2e308650dc71c4487c87863e6b717e4d50cb8c25f52124a5ec393e5de88d9
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
